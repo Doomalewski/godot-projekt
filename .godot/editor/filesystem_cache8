@@ -1,0 +1,22 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1738184938
+default_bus_layout.tres::AudioBusLayout::-1::1738182889::0::1::::<><>::
+default_env.tres::Environment::-1::1738182889::0::1::::<><>::
+icon.png::CompressedTexture2D::2350034243555602727::1738182767::1738182920::1::::<><>::
+main.tscn::PackedScene::8605957663274752290::1738184938::0::1::::<><>::
+::res://art/::1738185849
+body.material::StandardMaterial3D::-1::1738182767::0::1::::<><>::
+eye.material::StandardMaterial3D::-1::1738182767::0::1::::<><>::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::8754384041230405768::1738182767::1738182920::1::::<><>::
+mob.glb::PackedScene::1113742168924080661::1738182767::1738182920::1::::<><>::
+mob_body.material::StandardMaterial3D::-1::1738182767::0::1::::<><>::
+mob_eye.material::StandardMaterial3D::-1::1738182767::0::1::::<><>::
+patelnia.glb::PackedScene::8648907897311874647::1738185845::1738185849::1::::<><>::uid://ctoee65xwns1y::::res://art/patelnia_Wood055_2K_Color.jpg<>uid://gopy3q0s0dm0::::res://art/patelnia_Wood055_2K_Roughness.png<>uid://cd1aqmis1mjah::::res://art/patelnia_Wood055_2K_Normal.jpg
+player.glb::PackedScene::5028368410072517480::1738182767::1738182920::1::::<><>::
+pupil.material::StandardMaterial3D::-1::1738182767::0::1::::<><>::
+patelnia_Wood055_2K_Normal.jpg::CompressedTexture2D::5037110936100033259::1738185846::1738185849::1::::<><>::
+patelnia_Wood055_2K_Color.jpg::CompressedTexture2D::6135582371855273468::1738185847::1738185849::1::::<><>::
+patelnia_Wood055_2K_Roughness.png::CompressedTexture2D::450989460861846469::1738185848::1738185849::1::::<><>::
+::res://fonts/::1738182920
+LICENSE.txt::TextFile::-1::1738182767::0::1::::<><>::
+Montserrat-Medium.ttf::FontFile::513054517512771502::1738182767::1738182920::1::::<><>::

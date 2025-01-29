@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwhforplgocxk"]
+
+[ext_resource type="PackedScene" uid="uid://dvhuiqmjvq8kp" path="res://art/patelnia.glb" id="1_3yis6"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_1e810"]
+
+[node name="Player" type="CharacterBody3D"]
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="character" type="Node3D" parent="Pivot"]
+
+[node name="patelnia" parent="Pivot/character" instance=ExtResource("1_3yis6")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2.38, 0, 0, 0, 2.38, 0, 0, 0, 2.38, 0, 0, 0)
+shape = SubResource("SphereShape3D_1e810")

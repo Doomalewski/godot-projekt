@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwp76l8apaps2"]
+
+[ext_resource type="Script" path="res://Mob.cs" id="1_3srn4"]
+[ext_resource type="PackedScene" uid="uid://7aaf6xxihfk0" path="res://jajko.glb" id="1_brcc5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vmio4"]
+
+[node name="Mob" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 21)
+script = ExtResource("1_3srn4")
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="jajko" parent="Pivot" instance=ExtResource("1_brcc5")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2.93, 0, 0, 0, 0.63, 0, 0, 0, 2.29, 0, 0.09, -0.165)
+shape = SubResource("BoxShape3D_vmio4")
+
+[node name="VisibleOnScreenNotifier3D" type="VisibleOnScreenNotifier3D" parent="."]
+transform = Transform3D(1.45, 0, 0, 0, 0.415, 0, 0, 0, 1.19, -0.03, 0, -0.17)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier3D" to="." method="_on_visible_on_screen_notifier_3d_screen_exited"]
